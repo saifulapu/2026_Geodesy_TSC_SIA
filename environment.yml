@@ -1,4 +1,4 @@
-name: faultdis
+name: geodesytsc
 channels:
   - conda-forge
 dependencies:
@@ -12,6 +12,15 @@ dependencies:
   - tqdm
   - h5py
   - cutde
+  - polars
+  - pyarrow
+  - scipy
+  - altair
+  - vegafusion 
+  - vl-convert-python
+  - xarray
+  - h5netcdf
   - pip
   - pip:
       - gmsh
+      - earthscope-sdk
